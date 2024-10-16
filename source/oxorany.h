@@ -65,7 +65,7 @@ typedef size_t _lxy__size_t;
 #define OXORANY_FORCEINLINE __attribute__((always_inline)) inline
 #endif
 
-#ifdef _DEBUG
+#ifdef __DEBUG__
 #define oxorany
 #define oxorany_flt
 #else
